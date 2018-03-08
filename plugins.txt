@@ -1,0 +1,15 @@
+ansicolor
+bitbucket
+bitbucket-build-status-notifier
+blueocean
+blueocean-bitbucket-pipeline
+blueocean-display-url
+blueocean-jira
+docker
+docker-workflow
+gradle
+maven-plugin
+pipeline-model-definition
+pipeline-maven
+workflow-aggregator
+google-login-plugin
