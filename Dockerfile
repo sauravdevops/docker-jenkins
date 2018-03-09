@@ -1,15 +1,10 @@
 # Jenkins Master, customized for Westpac's FastData environment
-FROM jenkins:alpine
+FROM jenkins/jenkins:lts
 
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 USER root
-# COPY repositories /etc/apk/repositories
-RUN apk add --no-cache \
-docker \
-openjdk8 \
-maven \
-openjdk8-jre
+RUN apt-get update && apt-get install -y ruby
 
 USER jenkins
 
