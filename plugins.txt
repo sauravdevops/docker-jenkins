@@ -12,4 +12,4 @@ maven-plugin
 pipeline-model-definition
 pipeline-maven
 workflow-aggregator
-google-login-plugin
+google-login
